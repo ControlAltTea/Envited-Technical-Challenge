@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(0deg, #F6F2FF, #F6F2FF), #FBFAFF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    /* width: 80%; */
+    align-items: center;
+    height: 80%;
+}
+
+.img-container {
+    display: flex;
+    margin-top: 10%;
+        height: 90%;
+}
+
+.event-img {
+    filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
+    border-radius: 0.5rem;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10%;
+}
+
+.heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.primary-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: right;
+
+    color: #240D57;
+}
+
+#snapchat-lettering {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4rem;
+    /* identical to box height */
+
+    text-align: right;
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.secondary-text {
+    /* Easily host and share events with your friends across any social media. */
+    width: 80%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 28px;
+    text-align: right;
+
+    color: #4F4F4F;
+
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+}
+
+button {
+    /* Button */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 16px 72px 16px 72px;
+    gap: 10px;
+
+
+
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border: hwb(259 5% 66% / 0);
+    border-radius: 0.5rem;
+}
+
+.button-text {
+    /* 🎉 Create my event */
+
+
+    width: 181px;
+    height: 23px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
