@@ -13,3 +13,46 @@ body {
     align-items: center;
     height: 80%;
 }
+
+.heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-text {   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #240D57;
+}
+
+h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #828282;
+}
+
+.img-container { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cake-img {
+   width: 60%;
+}
