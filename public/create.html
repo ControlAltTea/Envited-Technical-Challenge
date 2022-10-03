@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/create.css">
+    <title>Envited | Create Your Own Event</title>
+</head>
+<body>
+    <div class="container">
+        <div class="create-form">
+        <h1>Create your own event</h1>
+            <form action="submit">
+                <div class="input">
+                    <label for="start-date">Start Date</label>
+                    <input type="date" class="start-date" id="start-date" name="start-date">
+                </div>
+                <div class="input">
+                    <label for="end-date">End Date</label>
+                    <input type="date" class="end-date" id="end-date" name="end-date">
+                </div>
+                <div class="input">
+                    <label for="event-name">Event Name</label>
+                    <input type="text" class="event-name" id="event-name" name="event-name">
+                </div>
+            </form>
+            <form action="/events" method="GET"><button><a href="/events"><span class="button-text">Submit Your
+                            Event</span></a></button></form>
+        </div>
+    </div>
+</body>
+</html>
